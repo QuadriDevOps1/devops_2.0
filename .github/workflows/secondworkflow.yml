@@ -1,0 +1,10 @@
+name: second workflow
+on: workflow_dispatch
+Jobs:
+  first-job: 
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Print some message
+        run: |
+          echo "Welcome to second workflow"
+          echo "Good luck!"
