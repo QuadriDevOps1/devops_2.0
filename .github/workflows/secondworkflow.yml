@@ -1,6 +1,6 @@
 name: second workflow
 on: workflow_dispatch
-Jobs:
+jobs:
   first-job: 
     runs-on: Ubuntu-latest
     steps:
